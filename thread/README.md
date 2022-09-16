@@ -78,7 +78,7 @@ class ThreadTest {
 }
 ```
 
- * `new ExtendedThread("hello thread)`: Thread 클래스로 상속하고 스레드 객체를 생성한다.
+ * `new ExtendedThread("hello thread")`: Thread 클래스로 상속하고 스레드 객체를 생성한다.
  * `thread.start()`: 생성한 스레드 객체를 실행한다. Thread 객체의 `run()` 메서드가 실행된다.
  * `thread.join()`: 스레드 작업이 완료될 때 까지 기다린다.
 
